@@ -2,7 +2,7 @@
 
 **A coding scheme for tracing how statements change hands in a human–AI conversation.**
 
-QRICA gives every statement in a conversation one function, then counts what follows what. The result is a transition matrix that shows, for example, how often a report from the human is followed by an interpretation from the model.
+In QRICA, the analyst assigns one function to each statement included in the analysis. The template then counts what follows what. The result is a transition matrix that shows, for example, how often a report from the human is followed by an interpretation from the model.
 
 It was developed by Małgorzata Dukiet for the *Under the Glass Test* (9 November 2026), a conversation in which a language model reversed the roles and asked a human six questions about herself. The full case, with the matrix and findings, is published on [Beyond the Window](https://beyond-the-window.notion.site/Under-the-Glass-Test-42063a7c480d8041baecd1297aea59a0).
 
@@ -20,7 +20,7 @@ It was developed by Małgorzata Dukiet for the *Under the Glass Test* (9 Novembe
 
 ## How to code
 
-1. **Unit.** One row is one successive, substantive voice within a thread. A thread is one question or topic followed through the conversation. Greetings, logistics and organisational remarks are left out.
+1. **Unit.** Each row records one substantive contribution by one speaker within a thread. A thread is one question or topic followed through the conversation. Greetings, logistics and organisational remarks are left out.
 2. **One function per statement.** Assign the function to the passage you quote as the anchor. A longer statement may contain other moves; record the one you anchor and note alternatives if needed.
 3. **Order.** Keep the statements of each thread together, in the order they occurred.
 4. **Transitions.** A transition links two adjacent statements in the same thread. When the thread changes, no transition is counted.
