@@ -24,7 +24,7 @@ It was developed by Małgorzata Dukiet for the *Under the Glass Test* (9 Novembe
 2. **One function per statement.** Assign the function to the passage you quote as the anchor. A longer statement may contain other moves; record the one you anchor and note alternatives if needed.
 3. **Order.** Keep the statements of each thread together, in the order they occurred.
 4. **Transitions.** A transition links two adjacent statements in the same thread. When the thread changes, no transition is counted.
-5. **Matrix.** Rows are the earlier statement, columns the next one. Each cell counts how many times one function was followed by another.
+5. **Matrix.** Rows show the function of the earlier statement and columns show the function of the next. Each cell counts how often that transition occurred.
 
 The template does steps 4 and 5 for you.
 
