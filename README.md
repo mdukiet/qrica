@@ -41,13 +41,12 @@ The levels come from [Inference Horizon](https://github.com/mdukiet/inference-ho
 
 ## Files
 
-```
-template/
-  QRICA_template.xlsx                 blank workbook: How to use · Statements · Transitions · Matrix · Mechanisms
-example/
-  Under_the_Glass_Test_matrix_EN.xlsx the Under the Glass Test, coded (English, with Polish originals)
-  Test_spod_szyby_macierz_PL.xlsx     the same case in Polish
-```
+**Template**
+- [QRICA_template.xlsx](template/QRICA_template.xlsx) — a blank workbook: How to use · Statements · Transitions · Matrix · Mechanisms
+
+**Example**
+- [Under_the_Glass_Test_matrix_EN.xlsx](example/Under_the_Glass_Test_matrix_EN.xlsx) — the Under the Glass Test, coded (English, with Polish originals)
+- [Test_spod_szyby_macierz_PL.xlsx](example/Test_spod_szyby_macierz_PL.xlsx) — the same case in Polish
 
 **Using the template:** fill in the *Statements* tab (address, thread, speaker, function, quote). *Transitions* and *Matrix* fill themselves. Type your thread names under the matrix to see how many transitions each thread has and who responded. The template has room for 200 statements.
 
@@ -72,4 +71,4 @@ Dukiet, M. (2026). *QRICA: a coding scheme for tracing how statements change han
 
 ## License
 
-To be decided.
+
