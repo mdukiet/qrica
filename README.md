@@ -62,7 +62,7 @@ The levels come from [Inference Horizon](https://github.com/mdukiet/inference-ho
 ## Related work
 
 - [Inference Horizon](https://github.com/mdukiet/inference-horizon): when should an inference be revised, and when do its grounds still hold?
-- [Claim Gate](https://github.com/mdukiet/claim-gate)): how much can a claim say, given the evidence behind it?
+- [Claim Gate](https://github.com/mdukiet/claim-gate): how much can a claim say, given the evidence behind it?
 - [Beyond the Window](https://beyond-the-window.notion.site/41e63a7c480d80f2b9cdfa5fd0123902): the essay *After ‘Goodnight’ Comes Monday*, posters and the Under the Glass Test.
 
 ## How to cite
