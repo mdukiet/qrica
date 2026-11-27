@@ -2,7 +2,7 @@
 
 **A coding scheme for tracing how statements change hands in a human–AI conversation.**
 
-In QRICA, the analyst assigns one function to each statement included in the analysis. The template then counts what follows what. The result is a transition matrix that shows, for example, how often a report from the human is followed by an interpretation from the model.
+In QRICA, the analyst assigns one function to each statement included in the analysis. The template then counts what follows what. The result is a transition matrix that shows how often one function follows another within a thread, for example how often a report is followed by an interpretation. The coded statements let you trace each transition back to the speakers and their words.
 
 It was developed by Małgorzata Dukiet for the *Under the Glass Test* (9 November 2026), a conversation in which a language model reversed the roles and asked a human six questions about herself. The full case, with the matrix and findings, is published on [Beyond the Window](https://beyond-the-window.notion.site/Under-the-Glass-Test-42063a7c480d8041baecd1297aea59a0).
 
@@ -56,7 +56,7 @@ The levels come from [Inference Horizon](https://github.com/mdukiet/inference-ho
 
 - The examples are a retrospective coding of a single dialogue by a single analyst. They demonstrate the method; they are not a study.
 - The distribution of transitions depends on the procedure of the conversation, the length of the threads and the choice of unit. In the Under the Glass Test, for instance, the model’s role was to interpret, which makes R → I frequent by design.
-- QRICA records the sequence of functions. It does not say whether an interpretation was right. That is what the Mechanisms layer is for, and it remains a reading, not a verdict.
+- QRICA records the sequence of functions; it does not say whether an interpretation was right. The optional Mechanisms layer asks a different question: how far the wording supports a particular interpretation, and where uncertainty remains. This, too, is a reading, not a verdict.
 - Agreement between independent coders has not been tested.
 
 ## Related work
