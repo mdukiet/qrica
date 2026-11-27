@@ -70,5 +70,5 @@ The levels come from [Inference Horizon](https://github.com/mdukiet/inference-ho
 Dukiet, M. (2026). *QRICA: a coding scheme for tracing how statements change hands in a human–AI conversation.* https://github.com/mdukiet/qrica
 
 ## License
-
+[LICENSE](LICENSE)
 
